@@ -1,0 +1,14 @@
+title: EdgeServe
+# logo: /assets/img/logo.png
+description: Decentralized Model Serving
+show_downloads: true
+google_analytics: G-32B660EQ4D
+theme: jekyll-theme-minimal
+
+github:
+  is_project_page: true
+  repository_url: https://github.com/swjz/EdgeServe
+  owner_url: https://tedshaowang.com
+  zip_url: https://github.com/swjz/EdgeServe/archive/refs/heads/pulsar.zip
+  repository_nwo: swjz/EdgeServe
+  owner_name: Ted Shaowang
