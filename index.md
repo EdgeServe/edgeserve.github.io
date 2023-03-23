@@ -72,3 +72,11 @@ with Materialize(final_process, node, topic='topic_out') as materialize:
     # every next() call consumes a message from prediction output queue and runs final_process() on it
     next(materialize)
 ```
+
+## References
+EdgeServe is a product of a multi-year research effort in edge computing at University of Chicago (ChiData)
+
+1. Ted Shaowang and Sanjay Krishnan. EdgeServe: An Execution Layer for Decentralized Prediction. https://arxiv.org/pdf/2303.08028.pdf 
+2. Ted Shaowang, Xi Liang and Sanjay Krishnan. Sensor Fusion on the Edge: Initial Experiments in the EdgeServe System https://tedshaowang.com/assets/pdf/bidede22-shaowang.pdf
+3. Ted Shaowang, Nilesh Jain, Dennis Mathews, Sanjay Krishnan. Declarative Data Serving: The Future of Machine Learning Inference on the Edge
+ http://www.vldb.org/pvldb/vol14/p2555-shaowang.pdf
