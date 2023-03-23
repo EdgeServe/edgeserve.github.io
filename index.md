@@ -14,9 +14,11 @@ pip3 -r requirements.txt
 pip3 install -e .
 ```
 
-For how to set up an Apache Pulsar server in docker, please refer to [Apache Pulsar Doc](https://pulsar.apache.org/docs/2.11.x/getting-started-docker/).
+EdgeServe depends on Apache Pulsar as its default message broker service. For how to set up an Apache Pulsar server in docker, please refer to [Apache Pulsar Doc](https://pulsar.apache.org/docs/2.11.x/getting-started-docker/).
 
 ## Usage
+EdgeServe has an iterator-based Python interface designed for streaming data.
+Each node can run multiple tasks at the same time, and each task can be replicated on multiple nodes as they consume the shared message queue in parallel.
 ### Working as a data source node
 ```python
 from edgeserve.data_source import DataSource
