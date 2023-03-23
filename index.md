@@ -8,9 +8,9 @@ EdgeServe is a decentralized model serving system that optimizes data movement a
 
 ## Motivation and Design Principles
 Machine learning deployments are getting more complex where models may source feature data from a variety of disparate services hosted on different devices. Examples include:
-- ** Network Security . ** Packet catpure data collected from different nodes in a network may have to be combined to make global decisions about whether an attack is taking place.
-- ** Systematic Stock Trading . ** Data from a variety of data streams, often sourced from different vendors, are combined to predict the movement of stock prices. 
-- ** Multimodal Augmented Reality . ** Data from different sensors placed around a room, e.g., multiple video cameras, can be integrated into a single global model to make inferences about activities taking place in the room.
+- **Network Security.** Packet catpure data collected from different nodes in a network may have to be combined to make global decisions about whether an attack is taking place.
+- **Systematic Stock Trading.** Data from a variety of data streams, often sourced from different vendors, are combined to predict the movement of stock prices. 
+- **Multimodal Augmented Reality.** Data from different sensors placed around a room, e.g., multiple video cameras, can be integrated into a single global model to make inferences about activities taking place in the room.
 
 EdgeServe recognizes a need for a model serving system that can coordinate data from multiple data services and/or connect the results from multiple models. We have currently developed a research prototype with a Python programming interface and we encourage external usage and collaboration for feedback. 
 
