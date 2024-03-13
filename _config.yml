@@ -9,6 +9,8 @@ github:
   is_project_page: true
   repository_url: https://github.com/swjz/EdgeServe
   owner_url: https://tedshaowang.com
-  zip_url: https://github.com/swjz/EdgeServe/archive/refs/heads/pulsar.zip
+  zip_url: https://github.com/swjz/EdgeServe/zipball/pulsar
+  tar_url: https://github.com/swjz/EdgeServe/tarball/pulsar
+  docs_url: https://docs.edgeserve.org/
   repository_nwo: swjz/EdgeServe
   owner_name: Ted Shaowang
